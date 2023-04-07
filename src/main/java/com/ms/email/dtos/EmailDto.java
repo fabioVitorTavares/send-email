@@ -13,11 +13,11 @@ public class EmailDto {
     private String ownerRef;
 
     @NotBlank
-//    @Email
+    @Email
     private String emailFrom;
 
     @NotBlank
-//    @Email
+    @Email
     private String emailTo;
 
     @NotBlank
