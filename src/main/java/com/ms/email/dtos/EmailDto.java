@@ -7,15 +7,17 @@ import lombok.Data;
 
 @Data
 public class EmailDto {
+
+
     @NotBlank
     private String ownerRef;
 
     @NotBlank
-    @Email
+//    @Email
     private String emailFrom;
 
     @NotBlank
-    @Email
+//    @Email
     private String emailTo;
 
     @NotBlank
